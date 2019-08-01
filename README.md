@@ -1,7 +1,7 @@
 
 # react-native-payfort-sdk
 
-## Getting started
+## Getting started for integration
 
 `$ npm install react-native-payfort-sdk --save`
 
