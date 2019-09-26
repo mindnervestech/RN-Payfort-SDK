@@ -2,16 +2,13 @@
 package com.reactlibrary;
 
 import android.content.Intent;
-import android.provider.Settings;
 import android.util.Log;
 
-import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReadableMap;
-import com.payfort.fort.android.sdk.base.FortSdk;
 
 public class RNPayfortSdkModule extends ReactContextBaseJavaModule {
 
@@ -26,12 +23,6 @@ public class RNPayfortSdkModule extends ReactContextBaseJavaModule {
   @Override
   public String getName() {
     return "RNPayfortSdk";
-  }
-  
-
-  @ReactMethod
-  void getDeviceID(Promise p) {
-     p.resolve(FortSdk.getDeviceId(reactContext));
   }
 
   @ReactMethod
@@ -75,9 +66,6 @@ public class RNPayfortSdkModule extends ReactContextBaseJavaModule {
     }
     if(data.hasKey("order_description")) {
       intent.putExtra("order_description", data.getString("order_description"));
-    }
-    if(data.hasKey("sdk_token")) {
-      intent.putExtra("sdk_token", data.getString("sdk_token"));
     }
     getCurrentActivity().startActivity(intent);
   }
