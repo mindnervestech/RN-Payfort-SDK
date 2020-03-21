@@ -43,6 +43,9 @@ public class RNPayfortSdkModule extends ReactContextBaseJavaModule {
     if(data.hasKey("request_phrase")) {
       intent.putExtra("request_phrase", data.getString("request_phrase"));
     }
+    if(data.hasKey("language")) {
+      intent.putExtra("language", data.getString("language"));
+    }
     if(data.hasKey("customer_email")) {
       intent.putExtra("customer_email", data.getString("customer_email"));
     }
