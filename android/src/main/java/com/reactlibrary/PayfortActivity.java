@@ -38,7 +38,7 @@ public class PayfortActivity extends Activity {
 
     FortCallBackManager fortCallback;
     ProgressDialog pbLoading;
-    String deviceId, isLive, accessCode, merchantIdentifier, requestPhrase,
+    String deviceId, isLive, accessCode, merchantIdentifier, requestPhrase, language,
             customerEmail, currency, amount, merchantReference, customerName, customerIp, paymentOption, orderDescription;
 
     @Override
@@ -75,6 +75,9 @@ public class PayfortActivity extends Activity {
         if (intent.hasExtra("customer_email")) {
             customerEmail = intent.getStringExtra("customer_email");
         }
+        if (intent.hasExtra("language")) {
+            language = intent.getStringExtra("language");
+        }
         if (intent.hasExtra("currency")) {
             currency = intent.getStringExtra("currency");
         }
@@ -109,9 +112,9 @@ public class PayfortActivity extends Activity {
         params.put("service_command", "SDK_TOKEN");
         params.put("access_code", accessCode);
         params.put("merchant_identifier", merchantIdentifier);
-        params.put("language", "en");
+        params.put("language", language);
         params.put("device_id", deviceId);
-        params.put("signature", hashSignature(requestPhrase + "access_code=" + accessCode + "device_id=" + deviceId + "language=enmerchant_identifier=" + merchantIdentifier + "service_command=SDK_TOKEN" + requestPhrase));
+        params.put("signature", hashSignature(requestPhrase + "access_code=" + accessCode + "device_id=" + deviceId + "language=" + language + "merchant_identifier=" + merchantIdentifier + "service_command=SDK_TOKEN" + requestPhrase));
         JSONObject parameters = new JSONObject(params);
         JsonObjectRequest jsonRequest = new JsonObjectRequest(Request.Method.POST, url, parameters, new Response.Listener<JSONObject>() {
             @Override
@@ -217,7 +220,7 @@ public class PayfortActivity extends Activity {
         requestMap.put("customer_email", customerEmail);
         requestMap.put("currency", currency);
         requestMap.put("amount", amount);
-        requestMap.put("language", "en");
+        requestMap.put("language", language);
         requestMap.put("merchant_reference", merchantReference);
         requestMap.put("customer_name", customerName);
         requestMap.put("customer_ip", customerIp);
