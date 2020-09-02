@@ -31,6 +31,8 @@ typedef enum : NSUInteger {
 
 @property (nonatomic, assign) BOOL HideLoading;
 
+@property(nonatomic,assign) BOOL presentAsDefault;
+
 @property (nonatomic, weak) id <PayFortDelegate> delegate __deprecated_msg("Please remove this line of code and use callPayFortWithRequest: with handler for better performance");
 
 - (instancetype)initWithEnviroment:(KPayFortEnviroment)enviroment;

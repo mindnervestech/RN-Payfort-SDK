@@ -24,41 +24,25 @@
 		<data>
 		MSiKx/P2ebRVkXV4LpUT700luVQ=
 		</data>
-		<key>LoadingView.nib/objects-13.0+.nib</key>
+		<key>LoadingView.nib</key>
 		<data>
-		7o02YUPC/xwbojQWv4yf4slUtTI=
-		</data>
-		<key>LoadingView.nib/runtime.nib</key>
-		<data>
-		l8aGXf8LwBMsT8ZLLKTlgHFTGq4=
+		7fKl2mMCwML57dZk2Bf83x0Slms=
 		</data>
 		<key>PayFortLogo.png</key>
 		<data>
 		KF51cn7zipEcI+i/O9GrbiaIKCs=
 		</data>
-		<key>PayFortView-ar.nib/objects-13.0+.nib</key>
+		<key>PayFortView-ar.nib</key>
 		<data>
-		5Icjkx2RBJOj9PzKfU45Ogu0Jqs=
+		0B+9e/g9jZZl6L0bowfH/ARmwiM=
 		</data>
-		<key>PayFortView-ar.nib/runtime.nib</key>
+		<key>PayFortView.nib</key>
 		<data>
-		Ywk6z1hLTTk2bCa8fOgB7DNI+20=
+		MD5aM7Yq3By+PzEQykV8PTbdZnA=
 		</data>
-		<key>PayFortView.nib/objects-13.0+.nib</key>
+		<key>ResultPage.nib</key>
 		<data>
-		s/8RyeqZkAECugjoqozcFmqkifA=
-		</data>
-		<key>PayFortView.nib/runtime.nib</key>
-		<data>
-		KqRI/AS0zVdWfSMK/3LYnK2DymU=
-		</data>
-		<key>ResultPage.nib/objects-13.0+.nib</key>
-		<data>
-		nwCsYAVj6ibTF+ZxEaWsie3Lb5g=
-		</data>
-		<key>ResultPage.nib/runtime.nib</key>
-		<data>
-		FpT5d4FC/oqRS97KCtGBj1fZTWg=
+		ytaW4GEUtelXvMVfMfIj5T12slY=
 		</data>
 		<key>amex-card.png</key>
 		<data>
@@ -154,26 +138,15 @@
 			vof3b+Qq1XdNDgZx8l8X8OFTLmeXmyNCefFbLcuvBf4=
 			</data>
 		</dict>
-		<key>LoadingView.nib/objects-13.0+.nib</key>
+		<key>LoadingView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7o02YUPC/xwbojQWv4yf4slUtTI=
+			7fKl2mMCwML57dZk2Bf83x0Slms=
 			</data>
 			<key>hash2</key>
 			<data>
-			UZe6M2Hlxd2ZkI4fqfSEoz5K+7rFaXROPtdvOScxUG8=
-			</data>
-		</dict>
-		<key>LoadingView.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			l8aGXf8LwBMsT8ZLLKTlgHFTGq4=
-			</data>
-			<key>hash2</key>
-			<data>
-			Z9kTrKQpia9P8Picm0tZlR2jMVqgWc8hqzJaUxdwbso=
+			lWvZgnJ3elZnv5auM6QpMy24xNTupLYB5ImJXIkqoe4=
 			</data>
 		</dict>
 		<key>PayFortLogo.png</key>
@@ -187,70 +160,37 @@
 			GqNKAVuzAz2FOxEGhyCG/rgdd2lFi5iHssVrbogDZNg=
 			</data>
 		</dict>
-		<key>PayFortView-ar.nib/objects-13.0+.nib</key>
+		<key>PayFortView-ar.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5Icjkx2RBJOj9PzKfU45Ogu0Jqs=
+			0B+9e/g9jZZl6L0bowfH/ARmwiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2vUbytItZx0ar9Qa3N6+5PLD9SJwlBsDMz7+JSWzzPw=
+			g6Sa87fZhOI6gAKUqJGNRNPeGblQNThnIifTpRS/Ytg=
 			</data>
 		</dict>
-		<key>PayFortView-ar.nib/runtime.nib</key>
+		<key>PayFortView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ywk6z1hLTTk2bCa8fOgB7DNI+20=
+			MD5aM7Yq3By+PzEQykV8PTbdZnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			xbMEtncZGUo5mdZkGmsj/V6AdfD6/nhtESVAL7p3caw=
+			fnljihHtImomoosECQu3AENHgbUPUKPmhKCo6+gxipc=
 			</data>
 		</dict>
-		<key>PayFortView.nib/objects-13.0+.nib</key>
+		<key>ResultPage.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s/8RyeqZkAECugjoqozcFmqkifA=
+			ytaW4GEUtelXvMVfMfIj5T12slY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8Pp9qLyNFNe9kcsUWOp3CEjOqCo0lvpuwu8AH/981qY=
-			</data>
-		</dict>
-		<key>PayFortView.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KqRI/AS0zVdWfSMK/3LYnK2DymU=
-			</data>
-			<key>hash2</key>
-			<data>
-			wx5uVHj4TaJKH16F/rd+lAGRPUyiAcXLBLFeRTJi/k0=
-			</data>
-		</dict>
-		<key>ResultPage.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nwCsYAVj6ibTF+ZxEaWsie3Lb5g=
-			</data>
-			<key>hash2</key>
-			<data>
-			9/17j09gXC/iKBsyxo2tAcsHRSYfyarTWmsnhEPLh7Y=
-			</data>
-		</dict>
-		<key>ResultPage.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FpT5d4FC/oqRS97KCtGBj1fZTWg=
-			</data>
-			<key>hash2</key>
-			<data>
-			rzJYeRhExH9G3PAO0qB5p3h2zUIVLoNKWLYZcf9CYPc=
+			vrRNyqXIselaJHZKpH8nz2SVNMSWva1KvSvqEyc8kUw=
 			</data>
 		</dict>
 		<key>amex-card.png</key>
